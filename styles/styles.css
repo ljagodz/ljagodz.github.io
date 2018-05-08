@@ -1,5 +1,8 @@
-#header-div {
-	
+.header-div {
+	background-image: url('../images/beachfire.jpg');
+	background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
 }
 
 #text-div {
@@ -13,5 +16,7 @@
 #title-head {
 	text-align: center;
 	vertical-align: middle;
-	line-height: 90px; 
+	line-height: 90px;
+	color: white;
+	text-shadow: 2px 2px #ff0000;
 }
