@@ -1,12 +1,63 @@
-.header-div {
-	background-image: url('../images/beachfire.jpg');
-	background-repeat: no-repeat;
-    background-position: center; 
-    position: relative;
+/* OVERALL TAG MODIFIERS BELOW */
+
+section {
+	width: 57%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-#text-div {
-	
+div {
+	display: block;
+}
+
+h2 {
+	font-family: 'Nothing You Could Do', cursive;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5em;
+}
+
+li {
+	float: left;
+}
+
+ul {
+	list-style-type: none;
+}
+
+/* CLASS STYLES BELOW */
+
+.header-div {
+	width: 1080;
+	height: 360;
+	margin: auto;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.playlist-element {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+/* ID STYLES BELOW */
+
+#big-container-div {
+		margin-left:auto;
+		margin-right: auto;
+		width: 1080;
+}
+
+#section-sep {
+    height: 100%;
+    margin-top: 40px;
+	border-bottom: 1px solid #ddd;
 }
 
 #playlist-list {
@@ -18,5 +69,5 @@
 	vertical-align: middle;
 	line-height: 90px;
 	color: white;
-	text-shadow: 2px 2px #ff0000;
 }
+
