@@ -46,6 +46,12 @@ ul {
 	padding-right: 1em;
 }
 
+.work-exp {
+	background-color: #E0E0E0;
+	padding: 1em;
+	margin-bottom: 0.5em;
+}
+
 /* ID STYLES BELOW */
 
 #big-container-div {
@@ -69,5 +75,11 @@ ul {
 	vertical-align: middle;
 	line-height: 90px;
 	color: white;
+}
+
+#comp-logo {
+	display: inline;
+	width: 20%;
+	height: 20%;
 }
 
